@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex md:space-y-0 space-y-[100px] md:flex-row flex-col w-full justify-evenly flex-wrap items-center my-[140px]">
+        <div className="flex md:space-y-0 space-y-[100px] md:flex-row flex-col w-full justify-evenly flex-wrap items-center my-[30px]">
           <div className="w-[70px] h-[72px]">
             <img
               src="/images/amazon.svg"
