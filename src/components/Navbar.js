@@ -27,7 +27,7 @@ const Navbar = () => {
           <div
             class={
               opened
-                ? "menu w-full flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-6 md:relative absolute md:top-0 md:left-0 top-[80px] -left-[0] z-50 bg-[rgba(82,201,254,0.1)]  transition duration-[0.4s] ease-in-out rounded-[0px,0px,15px,15px] pb-[90px]"
+                ? "menu w-full flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-6 md:relative absolute md:top-0 md:left-0 top-[80px] -left-[0] z-50 bg-[#EBF8FE]  transition duration-[0.4s] ease-in-out rounded-[0px,0px,15px,15px] pb-[90px]"
                 : "-z-50 menu w-full flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-6 md:relative absolute md:top-0 md:left-0 top-[80px] -left-[110%] transition duration-[0.4s] ease-in-out"
             }
           >
@@ -49,7 +49,7 @@ const Navbar = () => {
               </li>
             </ul>
             <div class="order-2 md:order-3 flex items-center md:hidden md:m-0 mt-5">
-              <button class="btn py-4 px-[50px] font-primary font-medium text-lg">
+              <button class="btn py-4 pr-[50px] font-primary font-medium text-base text-black">
                 Profile
               </button>
               <button class="py-3 text-white font-primary font-medium rounded-[10px] px-[50px] bg-[#010E82]">
